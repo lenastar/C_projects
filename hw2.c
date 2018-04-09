@@ -9,7 +9,7 @@ int main(void){
 		if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')){
 			count_character += 1;
 		}
-		if (c>='0' && c<='9'){
+		if (c >= '0' && c <= '9'){
 			count_digital += 1;
 		}
 	}
